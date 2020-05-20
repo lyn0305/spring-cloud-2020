@@ -45,4 +45,10 @@ public class PaymentController {
         }
     }
 
+    @GetMapping("/payment/lb")
+    public String paymentZipkin()
+    {
+        return serverPort;
+    }
+
 }

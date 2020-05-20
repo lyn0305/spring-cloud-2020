@@ -10,7 +10,7 @@ public class ApplicationContextConfig {
 
 //    增加负载均衡轮询
     @Bean
-    @LoadBalanced
+//    @LoadBalanced 注释掉测试自己手写的算法
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
