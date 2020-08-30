@@ -5,7 +5,7 @@ server:
 spring:
   application:
     name: cloud-consumer-order
-####consul注册中心地址
+  ####consul注册中心地址
   cloud:
     consul:
       host: localhost
@@ -13,4 +13,3 @@ spring:
       discovery:
         #hostname: 127.0.0.1
         service-name: ${spring.application.name}
-
